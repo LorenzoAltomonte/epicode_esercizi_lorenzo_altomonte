@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+/* IMPOSTAZIONI GENERALI */
+body{
+    background-image: url("../img/sfondo.png");
+    font-family: 'Poppins', sans-serif;
+ 
+}
+hr{
+   visibility: hidden;
+}
+
+/* HEADER */
+
+header{
+    background-color: rgb(13, 126, 160);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header ul{
+    list-style-type: none;
+
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* MAIN */ 
+main{
+    background-color: white;
+}
+
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+h1 +p {
+    color: gray;
+    
+}
+strong{
+    color: purple;
+}
+code{
+    background-color: lightgray;
+    border-radius: 3px;
+}
+
+div iframe{
+   
+   width: 400px;
+    border-radius: 30px;
+}
+
+/* TABELLE */
+
+table{
+ 
+  padding: 20px;
+}
+
+td{
+    width: 150px;
+    height: 40px
+    }
+
+tr:nth-child(even) td {
+    background-color: lightgray;
+}
+
+caption{
+    font-weight: bold;
+}
+table thead{
+    background-color: rgb(67, 172, 238);
+    color: white;
+    
+    
+}
+
+
+/* FORM */
+
+section{
+    background-color: lightgray;
+    text-align: center;
+}
+fieldset{
+   border-style: none;
+}
+button{
+    color: white;
+    background-color:rgb(13, 126, 160) ;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+aside div{
+    background-color: lightgray;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(46, 90, 104);
+    color: white;
+    text-align: center;
+}
+
+address a{
+    color: purple;
+}
