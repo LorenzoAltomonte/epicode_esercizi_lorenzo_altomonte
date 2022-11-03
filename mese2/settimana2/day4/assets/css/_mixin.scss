@@ -1,0 +1,11 @@
+@mixin link{
+    text-decoration: none;
+    font-style: italic;
+
+}
+@mixin item{
+    list-style: none;
+    border-bottom: dashed 1px gray;
+    padding: 20px;
+    width: 140px;
+}
