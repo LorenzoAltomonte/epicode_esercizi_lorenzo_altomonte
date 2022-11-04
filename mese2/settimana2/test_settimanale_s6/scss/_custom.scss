@@ -1,0 +1,56 @@
+// variabili
+$testoColorato: #ff090e;
+$purpleSfondo:#7C32F4;
+$sfondoColorato:#f5f5f5;
+
+
+
+
+#main {
+    background: url("../img/pexels-aleksandar-pasaric-325185.jpg") no-repeat 0 -200px;
+    height: map-get($height ,'grande');
+    padding: 30px 0;
+}
+
+.colorati {
+    color:$testoColorato;
+
+}
+
+.sfondo {
+    background-color: $purpleSfondo;
+    // color: changeColor($purpleSfondo);
+}
+
+.centro {
+    text-align: center;
+}
+
+#section {
+    background-color:$sfondoColorato;
+}
+
+$height: (
+    'grande' : 600px,
+    'auto' : auto,
+);
+
+$width: (
+    'grandi' : 100px,
+    'piccole' : 70px,
+);
+
+#partnerImg {
+
+    img {
+        height: map-get($height , 'auto');
+        width: map-get($width, 'grandi');
+    }
+}
+
+#caroselloImg {
+    img {
+        height: $height;
+        width: map-get($width, 'piccole');
+    }
+}
