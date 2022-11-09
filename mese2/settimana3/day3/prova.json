@@ -1,0 +1,89 @@
+{
+    "musica":[
+        {
+            "id": 1,
+            "titolo": "dandelions",
+            "autore": "ruth b"
+        },
+        {
+            "id": 2,
+            "titolo": "infinity",
+            "autore": "jaymes young "
+        },
+        {
+            "id": 3,
+            "titolo": "love",
+            "autore": "nwantiti"
+        }
+    ],
+    "studenti": [
+        {
+            "id": 1,
+            "nome": "Lorenzo",
+            "cognome":"Altomonte",
+            "corso": 622
+        },
+        {
+            "id": 2,
+            "nome": "Lorenzo",
+            "cognome":"De Carolis",
+            "corso": 622
+        },
+        {
+            "id": 3,
+            "nome": "Giulia",
+            "cognome":"Franzosi",
+            "corso": 622
+        },
+        {
+            "id": 4,
+            "nome": "Andrea",
+            "cognome":"Cursi",
+            "corso": 622
+        }, {
+            "id": 5,
+            "nome": "Davide",
+            "cognome":"Alfonsi",
+            "corso": 622
+        },
+        {
+            "id": 6,
+            "nome": "Ilaria",
+            "cognome":"Cognata",
+            "corso": 622
+        }
+    ],
+    "manga": [
+        {
+            "id": 1,
+            "titolo": "One Piece",
+            "autore":"ODA Eiichiro",
+            "anno": 1997
+        },
+        {
+            "id": 2,
+            "titolo": "My Hero Academia",
+            "autore":"HORIKOSHI Kouhei",
+            "anno": 2014
+        },
+        {
+            "id": 3,
+            "titolo": "Berserk",
+            "autore":"MIURA Kentaro",
+            "anno": 1989
+        },
+        {
+            "id": 4,
+            "titolo": "20 century boys",
+            "autore":"URASAWA Naoki",
+            "anno": 1999
+        },
+        {
+            "id": 5,
+            "titolo": "Slam Dunk",
+            "autore":"INOUE Takehiko",
+            "anno": 1990
+        }
+        
+    ]
+}
