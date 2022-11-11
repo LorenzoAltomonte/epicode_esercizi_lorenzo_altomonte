@@ -1,0 +1,19 @@
+{
+  "elenco": [
+    {
+      "nome": "Lorenzo",
+      "cognome": "Altomonte",
+      "id": 1
+    },
+    {
+      "nome": "Federica",
+      "cognome": "Quarto",
+      "id": 2
+    },
+    {
+      "nome": "Albert",
+      "cognome": "Scarsi",
+      "id": 3
+    }
+  ]
+}
