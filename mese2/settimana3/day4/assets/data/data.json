@@ -1,0 +1,39 @@
+{
+    "studenti": [
+        {
+            "id": 1,
+            "nome": "Lorenzo",
+            "cognome":"Altomonte",
+            "corso": 622
+        },
+        {
+            "id": 2,
+            "nome": "Lorenzo",
+            "cognome":"De Carolis",
+            "corso": 622
+        },
+        {
+            "id": 3,
+            "nome": "Giulia",
+            "cognome":"Franzosi",
+            "corso": 622
+        },
+        {
+            "id": 4,
+            "nome": "Andrea",
+            "cognome":"Cursi",
+            "corso": 622
+        }, {
+            "id": 5,
+            "nome": "Davide",
+            "cognome":"Alfonsi",
+            "corso": 622
+        },
+        {
+            "id": 6,
+            "nome": "Ilaria",
+            "cognome":"Cognata",
+            "corso": 622
+        }
+    ]
+}
