@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/scss/bootstrap';
+
+.btn_primary{
+  color: white;
+  background-color: orangered;
+
+}
+.attivi{
+    color: green;
+}
+.inattivi{
+    color: red;
+}

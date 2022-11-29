@@ -1,0 +1,13 @@
+<div class="container justify-content-center">
+<div *ngFor="let post of posts">
+    <div class="card mb-2" style="width: 18rem" *ngIf="post.active">
+        <div class="card-body">
+            <h5 class="card-title">{{post.title}}</h5>
+            <p class="card-text">
+                {{post.body}}
+            </p>
+            <p class="attivi">{{ post.active }}</p>
+        </div>
+    </div>
+</div>
+</div>
