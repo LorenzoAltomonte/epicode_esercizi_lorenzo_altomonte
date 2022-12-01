@@ -1,0 +1,84 @@
+{
+  "lista": [
+    {
+      "body": "Sit minim deserunt enim enim nisi. Eiusmod incididunt dolore et ea anim. Non exercitation id voluptate et velit quis anim officia fugiat esse laborum nisi fugiat non.",
+      "title": "Dolor velit sint tempor culpa cupidatat ipsum do ad tempor eiusmod.",
+      "active": false,
+      "type": "politics",
+      "id": 1,
+      "autor": "pippo"
+    },
+    {
+      "body": "Sit minim deserunt enim enim nisi. Eiusmod incididunt dolore et ea anim. Non exercitation id voluptate et velit quis anim officia fugiat esse laborum nisi fugiat non.",
+      "title": "Dolor velit sint tempor culpa cupidatat ipsum do ad tempor eiusmod.",
+      "active": true,
+      "type": "news",
+      "id": 2,
+      "autor": "tu fratello"
+    },
+    {
+      "id": 3,
+      "body": "Sit minim deserunt enim enim nisi. Eiusmod incididunt dolore et ea anim. Non exercitation id voluptate et velit quis anim officia fugiat esse laborum nisi fugiat non.",
+      "title": "Dolor velit sint tempor culpa cupidatat ipsum do ad tempor eiusmod.",
+      "active": true,
+      "type": "education",
+      "autor": "tu sorella"
+    },
+    {
+      "id": 4,
+      "body": "Sit minim deserunt enim enim nisi. Eiusmod incididunt dolore et ea anim. Non exercitation id voluptate et velit quis anim officia fugiat esse laborum nisi fugiat non.",
+      "title": "Dolor velit sint tempor culpa cupidatat ipsum do ad tempor eiusmod.",
+      "active": false,
+      "type": "politics",
+      "autor": "tu padre"
+    },
+    {
+      "body": "Sit minim deserunt enim enim nisi. Eiusmod incididunt dolore et ea anim. Non exercitation id voluptate et velit quis anim officia fugiat esse laborum nisi fugiat non.",
+      "title": "Dolor velit sint tempor culpa cupidatat ipsum do ad tempor eiusmod.",
+      "active": true,
+      "type": "news",
+      "id": 5,
+      "autor": "tu nonna"
+    },
+    {
+      "id": 6,
+      "body": "Sit minim deserunt enim enim nisi. Eiusmod incididunt dolore et ea anim. Non exercitation id voluptate et velit quis anim officia fugiat esse laborum nisi fugiat non.",
+      "title": "Dolor velit sint tempor culpa cupidatat ipsum do ad tempor eiusmod.",
+      "active": true,
+      "type": "education",
+      "autor": "tu zia"
+    },
+    {
+      "body": "Sit minim deserunt enim enim nisi. Eiusmod incididunt dolore et ea anim. Non exercitation id voluptate et velit quis anim officia fugiat esse laborum nisi fugiat non.",
+      "title": "Dolor velit sint tempor culpa cupidatat ipsum do ad tempor eiusmod.",
+      "active": false,
+      "type": "politics",
+      "id": 7,
+      "autor": "tu madre"
+    },
+    {
+      "id": 8,
+      "body": "Sit minim deserunt enim enim nisi. Eiusmod incididunt dolore et ea anim. Non exercitation id voluptate et velit quis anim officia fugiat esse laborum nisi fugiat non.",
+      "title": "Dolor velit sint tempor culpa cupidatat ipsum do ad tempor eiusmod.",
+      "active": true,
+      "type": "news",
+      "autor": "ezio"
+    },
+    {
+      "id": 7,
+      "body": "Sit minim deserunt enim enim nisi. Eiusmod incididunt dolore et ea anim. Non exercitation id voluptate et velit quis anim officia fugiat esse laborum nisi fugiat non.",
+      "title": "Dolor velit sint tempor culpa cupidatat ipsum do ad tempor eiusmod.",
+      "active": true,
+      "type": "news",
+      "autor": "franco"
+    },
+    {
+      "id": 8,
+      "body": "Sit minim deserunt enim enim nisi. Eiusmod incididunt dolore et ea anim. Non exercitation id voluptate et velit quis anim officia fugiat esse laborum nisi fugiat non.",
+      "title": "Dolor velit sint tempor culpa cupidatat ipsum do ad tempor eiusmod.",
+      "active": true,
+      "type": "education",
+      "autor": "paperino"
+    }
+  ]
+}
