@@ -1,13 +1,7 @@
-import { Injectable } from '@angular/core';
+
 import { Users } from './models/users';
 
-@Injectable({
-  providedIn: 'root'
-})
-export class UsersService {
 
-  constructor() { }
-}
 var users:Users[];
 
 fetch('http://localhost:3000/utenti')
@@ -17,6 +11,6 @@ fetch('http://localhost:3000/utenti')
 export async function getUsers() {
   return await (await fetch('http://localhost:3000/utenti')).json()
 }
-export async function getUsersById(users:Users[], id:number){
-  return   users.find((e) => (e.id ==id))
+export async function getUsersById(id:number){
+  return await(await fetch('http://localhost:3000/utenti/'+ id)).json()
 }

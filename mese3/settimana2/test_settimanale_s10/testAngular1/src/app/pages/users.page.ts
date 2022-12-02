@@ -27,7 +27,6 @@ export class UsersPage implements OnInit {
   constructor(private router: Router) {
     getUsers().then((users) => {
       this.users = users;
-      this.router.navigate([/users/id])
     });
   }
 

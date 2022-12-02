@@ -38,7 +38,7 @@ const routes: Route[] = [
     component: UsersPage,
     children: [
       {
-        path: "id",
+        path: ":id",
         component: UsersDetailsPage
       }
     ]

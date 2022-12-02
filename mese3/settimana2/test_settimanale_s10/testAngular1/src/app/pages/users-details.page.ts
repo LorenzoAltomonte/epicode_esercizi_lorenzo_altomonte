@@ -1,31 +1,39 @@
 import { Component, OnInit } from '@angular/core';
+import { getUsers } from '../users.service';
 import { ActivatedRoute } from '@angular/router';
-import { getUsers, getUsersById } from '../users.service';
+import { Users } from '../models/users';
+import { getUsersById } from '../users.service';
 
 @Component({
-  selector: 'app-users-details',
+  selector: 'app-user-details',
   template: `
-    <p>
-      users-details works!
-    </p>
-  `,
-  styles: []
+
+    <p class="card-text">Nome utente: {{ user.name }}</p>
+    <p class="card-text">Email: {{ user.email }}</p>
+    <p class="card-text">Ruolo: {{ user.role }}</p>
+`
+  ,
+  styles: [
+  ]
 })
 export class UsersDetailsPage implements OnInit {
 
+  constructor(private route: ActivatedRoute) { }
 
-  constructor(private route: ActivatedRoute) {}
+  user!: Users | any
 
   id!: number;
-  // users!: Users[];
 
-  async ngOnInit() {
-    // this.route.params.subscribe((param) => {
-    //   this.id = Number(param.id);
-    // });
-    // const posts = await getUsers();
-    // this.users = users;
 
-    // this.users= await getUsersById(users, this.id);
+  ngOnInit() {
+    this.route.params.subscribe((param) => {
+      this.id = Number(param.id);
+      this.prendiUtente(this.id)
+    });
   }
+
+  async prendiUtente(id:number){
+    this.user! = await getUsersById(id!);
+  }
+
 }
