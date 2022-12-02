@@ -8,15 +8,9 @@ fetch('http://localhost:3000/lista')
 export async function getPosts(){
    return await (await fetch('http://localhost:3000/lista')).json()
 }
-
-export async function getPostbyId(id:number):Promise<Post>{
-  return await (await fetch('http://localhost:3000/lista/'+ id)).json()
+export async function getPostsById(posts:Post[], id:number){
+  return   posts.find((e) => (e.id ==id))
 }
-
-// export function updatePost(data:Partial<Post>, id:number){
-//   posts=posts.map(post=> post.id==id ? {...post, ...data}:post)
-//   return posts.find(post=>post.id== id) as Post
-// }
 export function changeStatus(post:Post){
 
 fetch(`http://localhost:3000/lista/${post.id}`,{

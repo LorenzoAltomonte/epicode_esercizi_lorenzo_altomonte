@@ -33,10 +33,21 @@ const routes: Route[] = [
   { path: 'active-posts/:id',
    component: DettaglioComponent },
 
-  { path: 'users',
-   component: UsersPage,
-
+   {
+    path: "users",
+    component: UsersPage,
+    children: [
+      {
+        path: "id",
+        component: UsersDetailsPage
+      }
+    ]
   },
+
+  {
+    path: "**",
+    redirectTo: ""
+  }
 
 ];
 

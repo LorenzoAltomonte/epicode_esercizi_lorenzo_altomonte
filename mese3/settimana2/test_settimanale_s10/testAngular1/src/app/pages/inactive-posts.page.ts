@@ -8,7 +8,7 @@ import { getPosts, changeStatus } from '../posts.service';
     <div *ngFor="let post of posts; let i = index">
       <app-post-card [post]="post" *ngIf="!post.active" >
         <button (click)="onActivePost(post.id,i,post)" class="btn btn-primary">Attiva</button>
-        <button class="btn btn-primary mx-1" [routerLink]="['/inactive-posts',post.id]" routerLinkActive="active" (click)="viewDetails(i)">dettaglio</button>
+        <button class="btn btn-primary mx-1" [routerLink]="['/inactive-posts',post.id]" routerLinkActive="active">dettaglio</button>
       </app-post-card>
     </div>
   </div>
@@ -33,8 +33,5 @@ export class InactivePostsPage implements OnInit {
     changeStatus(post)
     this.posts.splice(i,1)
   }
-  viewDetails(i:number){
-console.log(i);
 
-  }
 }

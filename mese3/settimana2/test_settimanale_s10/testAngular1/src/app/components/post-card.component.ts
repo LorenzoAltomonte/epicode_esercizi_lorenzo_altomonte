@@ -16,9 +16,8 @@ import { Post } from '../models/post';
     <h5 class="card-header" > <span appSfondo>Post</span> </h5>
     <div class="card-body">
     <h5 class="card-title">{{post.title | uppercase }}</h5>
-    <p class="card-text">
-      {{post.body}}
-    </p>
+    <p class="card-text">{{post.body}}</p>
+
       <ng-content></ng-content>
 
     </div>
