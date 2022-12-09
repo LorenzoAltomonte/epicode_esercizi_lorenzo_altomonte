@@ -1,0 +1,18 @@
+
+  <div class="carta" >
+    <mat-card>
+      <img
+        mat-card-image
+        [src]="'http://image.tmdb.org/t/p/w500' + movie.poster_path"
+        alt=""
+      />
+      <mat-card-content>
+
+        Voto: {{ movie.vote_average }}
+      </mat-card-content>
+      <mat-card-actions *ngIf="userLog">
+          <mat-icon (click)="fav ? remFav(movie.id) : addFav(userLog.user.id,movie.id)"[ngStyle]="{'color': fav ? 'red' : ''}">favorite</mat-icon>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+
